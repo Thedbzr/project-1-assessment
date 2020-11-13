@@ -29,13 +29,11 @@ function handleAddClick(){
     if(num.value == '') return
     let value = parseInt(num.value,10);
     rollingCount += value
-    num.value = '';
     render()
 }
 function handleSubClick(){
     if(num.value == '') return
     let value = parseInt(num.value,10);
     rollingCount = rollingCount - value
-    num.value = '';
     render()
 }
