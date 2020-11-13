@@ -1,0 +1,39 @@
+ body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  button{
+    background-color: grey;
+    color: white;
+    font-size: large;
+    border-radius: 12px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+  }
+  main {
+    align-self: center;
+  }
+  button {
+    height: 7vmin;
+    width: 7vmin;
+  }
+  input {
+    height: 5vmin;
+    width: 10vmin;
+    border: grey.5vmin solid;
+    border-radius: 12px;
+  }
+  #rollingCount {
+    color: black;
+    margin-bottom: 5vmin;
+    font-size: xxx-large;
+  }
+  .add:hover , .sub:hover {
+    background-color: whitesmoke;
+    color: darkgray;
+  }
